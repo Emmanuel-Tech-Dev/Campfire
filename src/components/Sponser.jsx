@@ -3,8 +3,8 @@ const Sponser = () => {
   return (
     <div>
       
-      <div className="container text-[#fff] p-5 mt-10">
-         <div className="items">
+      <div className="container text-center max-w-[100%] text-[#fff] p-5 mt-10">
+         <div className="items mx-auto">
             <h1 className="text-3xl font-semibold text-center pb-10 md:text-4xl">Sponsors</h1>
             <div className="icons flex flex-wrap items-center justify-center gap-7 ">
                 <img className="w-[120px]" src = "../images/quotient.png" />

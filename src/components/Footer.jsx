@@ -21,7 +21,7 @@ const Footer = () => {
             <footer className="p-5 text-[#fff]">
                 <img src="../images/leaf.png" className="px-10 -mt-14 md:px-56" />
                 <div className="links text-[#fff] py-10 ">
-                    <ul className="flex flex-col gap-6 md:w-[30%] md:flex-row md:justify-between md:m-auto">
+                    <ul className="flex flex-col gap-6 md:max-w-[40%] md:flex-row md:justify-between md:m-auto">
                         {links.map((link) => {
                             return (
                                 <li key={link.name}><a href={link.link}>{link.name}</a></li>
